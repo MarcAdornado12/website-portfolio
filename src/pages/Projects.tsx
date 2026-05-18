@@ -1,7 +1,3 @@
-import { Link } from 'react-router-dom';
-
-
-
 function Projects() {
     return (
         <section className="projectPage">
@@ -139,11 +135,6 @@ function Projects() {
                     <p className="techUsed">
                         C++ • OpenGL • GLUT
                     </p>
-                </div>
-
-                <div className="projectButtons">
-                    <Link to="/">HomePage</Link>
-                    <Link to="/aboutMe">About Me</Link>
                 </div>
             </div>
 
