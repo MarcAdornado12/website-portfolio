@@ -77,13 +77,13 @@ function Projects() {
                     <h2>Decentralized ATM Interface</h2>
 
                     <p>
-                        This code implements a decentralized ATM interface using Ethereum smart contracts. 
-                        It allows users to interact with a blockchain-based wallet through a React.js frontend 
+                        This code implements a decentralized ATM interface using Ethereum smart contracts.
+                        It allows users to interact with a blockchain-based wallet through a React.js frontend
                         integrated with the Ethereum network via MetaMask.
                     </p>
 
                     <p className="techUsed">
-                        React • Ethereum • Hardhat • Solidity • MetaMask 
+                        React • Ethereum • Hardhat • Solidity • MetaMask
                     </p>
                 </div>
 
@@ -91,9 +91,9 @@ function Projects() {
                     <h2>Store Inventory</h2>
 
                     <p>
-                        A Solidity-based smart contract designed to manage apple and banana 
-                        inventory in a store. The system allows users to buy items within set limits, 
-                        prevents purchases when stock is insufficient, and supports inventory restocking 
+                        A Solidity-based smart contract designed to manage apple and banana
+                        inventory in a store. The system allows users to buy items within set limits,
+                        prevents purchases when stock is insufficient, and supports inventory restocking
                         while validating transactions and inventory data.
                     </p>
 
@@ -106,7 +106,7 @@ function Projects() {
                     <h2>MyToken Smart Contract</h2>
 
                     <p>
-                        A Solidity smart contract that creates a cryptocurrency-like token on the Ethereum blockchain. 
+                        A Solidity smart contract that creates a cryptocurrency-like token on the Ethereum blockchain.
                         The project supports token minting, burning, balance tracking, and secure token supply management.
                     </p>
 
@@ -119,12 +119,25 @@ function Projects() {
                     <h2>NFT Minting System</h2>
 
                     <p>
-                        A JavaScript-based NFT minting system that creates and stores NFT metadata such as name, eye color, 
+                        A JavaScript-based NFT minting system that creates and stores NFT metadata such as name, eye color,
                         shirt type, and accessories. The project also supports listing minted NFTs and tracking the total NFT supply.
                     </p>
 
                     <p className="techUsed">
                         JavaScript • NFT • Metadata
+                    </p>
+                </div>
+
+                <div className="projectCard">
+                    <h2>2D OpenGL Graphics Project</h2>
+
+                    <p>
+                        A computer graphics project developed using C++ and OpenGL. The project demonstrates basic 2D rendering, object
+                        transformations, and animation techniques such as scaling, rotation, and translation.
+                    </p>
+
+                    <p className="techUsed">
+                        C++ • OpenGL • GLUT
                     </p>
                 </div>
 
