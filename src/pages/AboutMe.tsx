@@ -1,7 +1,3 @@
-import {  Link } from 'react-router-dom';
-
-
-
 function AboutMe() {
   return (
     <main className="intro">
@@ -45,13 +41,6 @@ function AboutMe() {
 
             </section>
           </div>
-        </div>
-
-        <div className="aboutButtons">
-          
-          <Link to="/">HomePage</Link>
-
-          <Link to="/projects">Projects</Link>
         </div>
       </div>
     </main>
