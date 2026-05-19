@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 function Projects() {
     const [openCards, setOpenCards] = useState<number[]>([]);
