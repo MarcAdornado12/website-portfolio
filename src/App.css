@@ -238,13 +238,13 @@ body {
 }
 
 .projectList {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   gap: 40px;
-  max-width: 1600px;
-  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  align-items: start;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .projectCard {
@@ -252,14 +252,16 @@ body {
   background-color: #1b3238;
   border-radius: 12px;
   text-align: left;
+  width: 420px;
+  min-height: 300px;
 }
 
 .projectCard h2 {
   font-weight: bold;
-  font-size: 35px;
+  font-size: 28px;
   margin-bottom: 30px;
-  text-align: justify;
-  color: #6bde3b;
+  text-align: left;
+  color: #94ffc2;
 }
 
 .projectCard button {
