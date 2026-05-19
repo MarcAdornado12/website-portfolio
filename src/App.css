@@ -1,8 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #525252;
-  color: white;
+  background-color: #1c292f;
   overflow-x: hidden;
 }
 
@@ -13,7 +12,7 @@ body {
   align-items: center;
   padding: 20px 60px;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: #494949;
+  background-color: #1b3238;
   border-radius: 12px;
   margin: 20px 60px;
 }
@@ -25,7 +24,7 @@ body {
 
 .navLeft h1 {
   font-size: 40px;
-  color: #a0cbca;
+  color: #e9efe6;
 }
 
 .navLeft a {
@@ -33,7 +32,7 @@ body {
 }
 
 .navLeft a:hover h1 {
-  color: #c5b4e3;
+  color: #6bde3b;
 }
 
 .navCenter {
@@ -44,17 +43,17 @@ body {
 
 .navCenter a {
   border-radius: 10px;
-  border: 2px solid #a0cbca;
+  border: 2px solid #e9efe6;
   padding: 12px 24px;
   text-decoration: none;
-  color: #a0cbca;
+  color: #e9efe6;
   transition: 0.3s;
 }
 
 .navCenter a:hover {
-  background-color: #c5b4e3;
-  border-color: #c5b4e3;
-  color: #494949;
+  background-color: #6bde3b;
+  border-color: #6bde3b;
+  color: #1b3238;
 }
 
 .navRight {
@@ -64,13 +63,13 @@ body {
 }
 
 .navRight a {
-  color: #a0cbca;
+  color: #e9efe6;
   font-size: 30px;
   text-decoration: none;
 }
 
 .navRight a:hover {
-  color: #c5b4e3;
+  color: #6bde3b;
 }
 
 /*HOMEPAGE*/
@@ -84,7 +83,7 @@ body {
 
 .homePage h1 {
   font-size: 60px;
-  color: #c5b4e3;
+  color: #e9efe6;
 }
 
 .homeButtons {
@@ -124,7 +123,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #494949;
+  background-color: #1b3238;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
 }
 
@@ -134,7 +133,6 @@ body {
   align-items: center;
   width: 100%;
 }
-
 
 /*ABOUTME LEFT SIDE*/
 .leftSide {
@@ -160,7 +158,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #c5b4e3;
+  border: 2px solid #6bde3b;
 }
 
 .leftSide .smallBox h1 {
@@ -172,17 +170,17 @@ body {
 
 .leftSide h1 {
   font-size: 30px;
-  color: #c5b4e3;
+  color: #e9efe6;
 }
 
 .leftSide h2 {
   font-size: 25px;
-  color: #c5b4e3;
+  color: #e9efe6;
 }
 
 .leftSide p {
   font-size: 18px;
-  color: #c5b4e3;
+  color: #e9efe6;
 }
 
 /*ABOUTME RIGHT SIDE*/
@@ -200,14 +198,14 @@ body {
   font-size: 50px;
   margin-bottom: 40px;
   text-align: center;
-  color: #c5b4e3;
+  color: #e9efe6;
 }
 
 .rightSide h2 {
   font-size: 25px;
   margin-bottom: 40px;
   text-align: center;
-  color: #c5b4e3;
+  color: #e9efe6;
 }
 
 .rightSide p {
@@ -216,7 +214,7 @@ body {
   font-size: 17px;
   margin-top: 5px;
   text-align: justify;
-  color: #c5b4e3;
+  color: #e9efe6;
 }
 
 /*PROJECT*/
@@ -227,7 +225,7 @@ body {
 }
 
 .projectPage h1 {
-  color: #c5b4e3;
+  color: #e9efe6;
   font-size: 50px;
   margin-bottom: 100px;
 }
@@ -236,7 +234,7 @@ body {
   max-width: 700px;
   margin: 20px auto 100px;
   font-size: 25px;
-  color: #c5b4e3;
+  color: #e9efe6;
 }
 
 .projectList {
@@ -249,7 +247,7 @@ body {
 .projectCard {
   width: 700px;
   padding: 40px;
-  background-color: #494949;
+  background-color: #1b3238;
   border-radius: 12px;
   text-align: left;
 
@@ -260,27 +258,18 @@ body {
   font-size: 35px;
   margin-bottom: 30px;
   text-align: justify;
-  color: #c5b4e3;
+  color: #6bde3b;
 }
 
 .projectCard p {
   font-size: 25px;
   margin-bottom: 30px;
   text-align: justify;
-  color: #a0cbca;
+  color: #e9efe6;
 }
-
 
 .projectCard .techUsed {
   font-size: 15px;
-  color: #c5b4e3;
+  color: #6bde3b;
   margin-bottom: 1px;
-}
-
-/*PROJECT BUTTONS*/
-.projectButtons {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  gap: 40px;
 }
