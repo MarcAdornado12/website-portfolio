@@ -220,7 +220,7 @@ body {
 /*PROJECT*/
 .projectPage {
   min-height: 100vh;
-  padding: 80px 120px;
+  padding: 40px;
   text-align: center;
 }
 
@@ -238,19 +238,20 @@ body {
 }
 
 .projectList {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
-  align-items: center;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: start;
 }
 
 .projectCard {
-  width: 700px;
   padding: 40px;
   background-color: #1b3238;
   border-radius: 12px;
   text-align: left;
-
 }
 
 .projectCard h2 {
@@ -261,6 +262,14 @@ body {
   color: #6bde3b;
 }
 
+.projectCard button {
+  background: none;
+  border: none;
+  color: #6bde3b;
+  font-size: 25px;
+  cursor: pointer;
+}
+
 .projectCard p {
   font-size: 25px;
   margin-bottom: 30px;
@@ -269,7 +278,21 @@ body {
 }
 
 .projectCard .techUsed {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   font-size: 15px;
-  color: #6bde3b;
   margin-bottom: 1px;
+  color: #6bde3b;
 }
+
+.projectCard a {
+  font-size: 20px;
+  color: #6bde3b;
+  margin-top: 5px;
+}
+
+.projectCard a:hover{
+  color: #e9efe6;
+}
+
